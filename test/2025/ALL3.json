@@ -1,14 +1,6 @@
 
 {"urls": [
     {
-        "name": "🐲️这个接口",
-        "url": "https://www.macms.pro/box/3.json"
-    },
-    {
-        "name": "🐼肥猫接口",
-        "url": "http://肥猫.live/"
-    },
-    {
         "name": "🐭喵影视源",
         "url": "http://meowtv.cn/tv"
     },
