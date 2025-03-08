@@ -1,7 +1,4 @@
-{
-    "sites": {
-        "default": 1,
-        "data": [
+{"urls": [
             {
                 "key": "6U资源",
                 "name": "6U资源",
@@ -2605,6 +2602,4 @@
                 "isActive": true,
                 "id": 31
             }
-        ]
-    }
 }
