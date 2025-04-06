@@ -1,4 +1,3 @@
-
 {
 "spider":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/jar/xc0126.jar",
 
@@ -7,7 +6,7 @@
 	{"name":"05152","type":0,"url":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/00live05152.txt"},
 	{"name":"05153","type":0,"url":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/00live05153.txt"},
 	{"name":"FongMi","type":0,"url":"https://kenyu.ggff.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"},
-	{"name":"Guo54","type":0,"url":"https://yubou.us.kg/https://agit.ai/guot54/ygbh/raw/branch/master/zB/zB.txt"},
+	{"name":"Guo54","type":0,"url":"https://kenyu.ggff.net/https://agit.ai/guot54/ygbh/raw/branch/master/zB/zB.txt"},
 	{"name":"GaoTian","type":0,"url":"https://kenyu.ggff.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/listx.txt"},
 	{"name":"YanG","type":0,"url":"https://kenyu.ggff.net/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u"},
 	
@@ -18,8 +17,8 @@
 "categories":["福利","福利片","伦理片"],
 "sites":[
 {"key":"date","name":"️🚫🔞 0423 🔞🚫","type":3,"api":"csp_NiNi","searchable":0,"quickSearch":0,"filterable":0},
-{"key":"ffBBB","name":"🌐Bilibili (HD)","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/ext/00bili05155.json", "jar":"https://yubou.us.kg/https://github.com/c120487/00/raw/main/jar/pc0330.jar"},
-{"key":"live","name":"💻电视直播","type":3,"api":"https://github.com/c120487/00/raw/main/api/直播转点播.js","ext":"Peter1$https://yubou.us.kg/https://raw.githubusercontent.com/c120487/00/main/00live05151.txt#Peter2$https://yubou.us.kg/https://raw.githubusercontent.com/c120487/00/main/00live05152.txt#Peter3$https://yubou.us.kg/https://raw.githubusercontent.com/c120487/00/main/00live05153.txt#FongMi$https://yubou.us.kg/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt#Gaotian$https://yubou.us.kg/https://raw.githubusercontent.com/gaotianliuyun/gao/master/listx.txt"},
+{"key":"ffBBB","name":"🌐Bilibili (HD)","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/ext/00bili05155.json", "jar":"https://kenyu.ggff.net/https://github.com/c120487/00/raw/main/jar/pc0330.jar"},
+{"key":"live","name":"💻电视直播","type":3,"api":"https://github.com/c120487/00/raw/main/api/直播转点播.js","ext":"Peter1$https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/00live05151.txt#Peter2$https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/00live05152.txt#Peter3$https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/00live05153.txt#FongMi$https://kenyu.ggff.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt#Gaotian$https://kenyu.ggff.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/listx.txt"},
 
 {"key":"Local","name":"🗃本地播放","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":1,"type_flag":1},
 {"key":"WebDAV","name":"📀WebDAV","type":3,"api":"csp_WebDAV","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/ext/webdav05155.txt","jar":"https://kenyu.ggff.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
@@ -212,9 +211,9 @@
 //
 //
 {"key":"s00xBPQx","name":"🧪🧪xBPQx🧪🧪‍","type":0,"api":"","searchable":0,"quickSearch":0},
-{"key":"吉利","name":"吉利(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://yubou.us.kg/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e5%90%89%e5%88%a9.json"},
-{"key":"奇瑞","name":"奇瑞(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://yubou.us.kg/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e5%a5%87%e7%91%9e.json"},
-{"key":"长城","name":"长城(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://yubou.us.kg/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e9%95%bf%e5%9f%8e.json"},
+{"key":"吉利","name":"吉利(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kenyu.ggff.net/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e5%90%89%e5%88%a9.json"},
+{"key":"奇瑞","name":"奇瑞(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kenyu.ggff.net/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e5%a5%87%e7%91%9e.json"},
+{"key":"长城","name":"长城(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kenyu.ggff.net/https://agit.ai/xiaohewanwan/jar/raw/branch/main/shaokaochedui/%e9%95%bf%e5%9f%8e.json"},
 
 {"key":"淫大代表","name":"淫大代表(xBPQ)","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/00/main/ext/yddb.json"},
 {"key":"csp_xBPQ_AVideo","name":"AVideo","type":3,"api":"csp_xBPQx","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kenyu.ggff.net/https://raw.githubusercontent.com/c120487/TVBOXZY/main/xBPQ/AVideo.json"},
