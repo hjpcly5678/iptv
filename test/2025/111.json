@@ -1793,7 +1793,7 @@
     {
             "name": "🐻‍❄️IPV6直播源",
             "type": 0,
-            "url": "https://kenyu.ggff.net/https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/IPTV.m3u",
+            "url": "https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/IPTV.m3u",
             "playerType": 2
         },
        {
@@ -1805,7 +1805,7 @@
         {
             "name": "🔰YanG-Gather",
             "type": 0,
-            "url": "https://kenyu.ggff.net/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
+            "url": "https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
             "playerType": 2
         }
         
