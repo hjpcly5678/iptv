@@ -48,7 +48,7 @@ if [ -f /tmp/xiaoya_install.sh ]; then
 fi
 if [ -n "${XIAOYA_BRANCH}" ]; then
     if ! curl -sL "https://fastly.jsdelivr.net/gh/xiaoyaDev/xiaoya-alist@${XIAOYA_BRANCH}/all_in_one.sh" -o /tmp/xiaoya_install.sh; then
-        if ! curl -sL "https://kenyu.ggff.net/https://raw.githubusercontent.com/xiaoyaDev/xiaoya-alist/${XIAOYA_BRANCH}/all_in_one.sh" -o /tmp/xiaoya_install.sh; then
+        if ! curl -sL "https://raw.githubusercontent.com/xiaoyaDev/xiaoya-alist/${XIAOYA_BRANCH}/all_in_one.sh" -o /tmp/xiaoya_install.sh; then
             ERROR "脚本获取失败！"
             exit 1
         fi
