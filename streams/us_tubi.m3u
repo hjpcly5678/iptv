@@ -27,8 +27,6 @@ https://apollo.production-public.tubi.io/live/ac-kmgh2.m3u8
 https://apollo.production-public.tubi.io/live/ac-wxyz2.m3u8
 #EXTINF:-1 tvg-id="KETVDT1.us",ABC 7 Omaha NE (KETV) (720p)
 https://apollo.production-public.tubi.io/live/ac-ketv.m3u8
-#EXTINF:-1 tvg-id="WFAADT1.us",ABC 8 Dallas / Fort Worth TX (WFAA) (1080p)
-https://livetv-fa.tubi.video/wfaa/live.m3u8
 #EXTINF:-1 tvg-id="WMTWDT1.us",ABC 8 Portland ME (WMTW) (720p)
 https://apollo.production-public.tubi.io/live/ac-wmtw.m3u8
 #EXTINF:-1 tvg-id="WSOCDT1.us",ABC 9 Charlotte NC (WSOC) (720p)
@@ -93,9 +91,7 @@ https://aegis-cloudfront-1.tubi.video/35b865e3-cb8d-4d5b-9202-5490fce4477c/playl
 https://apollo.production-public.tubi.io/live/ac-are-we-there-yet2.m3u8
 #EXTINF:-1 tvg-id="Baywatch.us",Baywatch (720p)
 https://apollo.production-public.tubi.io/live/ac-baywatch.m3u8
-#EXTINF:-1 tvg-id="",BBC Doctor Who Classic (720p)
-https://aegis-cloudfront-1.tubi.video/7e9ef0f5-4d13-4083-aa3f-9375e652a4c9/playlist.m3u8
-#EXTINF:-1 tvg-id="",BBC Earth (720p)
+#EXTINF:-1 tvg-id="BBCEarth.uk@US",BBC Earth (720p)
 https://apollo.production-public.tubi.io/live/ac-bbc-earth2.m3u8
 #EXTINF:-1 tvg-id="",BBC Silent Witness New Tricks (720p)
 https://aegis-cloudfront-1.tubi.video/3723e418-8627-4a29-96fd-bcfebfccb004/playlist.m3u8
@@ -143,16 +139,8 @@ https://apollo.production-public.tubi.io/live/ac-kiro.m3u8
 https://apollo.production-public.tubi.io/live/ac-kcci.m3u8
 #EXTINF:-1 tvg-id="KPAXDT1.us",CBS 8 Missoula MT (KPAX) (720p)
 https://apollo.production-public.tubi.io/live/ac-kpax.m3u8
-#EXTINF:-1 tvg-id="WUSADT1.us",CBS 9 Washington DC (WUSA) (1080p)
-https://livetv-fa.tubi.video/wusa/live.m3u8
-#EXTINF:-1 tvg-id="WBNSDT1.us",CBS 10 Columbus OH (WBNS) (1080p)
-https://livetv-fa.tubi.video/wbns/live.m3u8
-#EXTINF:-1 tvg-id="KHOUDT1.us",CBS 11 Houston TX (KHOU) (1080p)
-https://livetv-fa.tubi.video/khou/live.m3u8
 #EXTINF:-1 tvg-id="WLKYDT1.us",CBS 32 Louisville KY (WLKY) (720p)
 https://apollo.production-public.tubi.io/live/ac-wlky.m3u8
-#EXTINF:-1 tvg-id="CheddarNews.us",Cheddar News (720p)
-https://apollo.production-public.tubi.io/live/ac-cheddar.m3u8
 #EXTINF:-1 tvg-id="",Cine Estrella (1080p)
 https://apollo.production-public.tubi.io/live/ac-cine-estrella.m3u8
 #EXTINF:-1 tvg-id="Cinevault80s.us",Cinevault 80s (720p)
@@ -189,7 +177,7 @@ https://aegis-cloudfront-1.tubi.video/b2fc97e6-b98f-42b4-be35-bd0361f1f637/playl
 https://apollo.production-public.tubi.io/live/ac-dog-the-bounty-hunter.m3u8
 #EXTINF:-1 tvg-id="",Dr. G Medical Examiner (720p)
 https://apollo.production-public.tubi.io/live/ac-dr-g-filmrise.m3u8
-#EXTINF:-1 tvg-id="DuckDynasty.uk",Duck Dynasty (1080p)
+#EXTINF:-1 tvg-id="DuckDynasty.us@US",Duck Dynasty (1080p)
 https://apollo.production-public.tubi.io/live/ac-duck-dynasty.m3u8
 #EXTINF:-1 tvg-id="",Ebony TV (1080p)
 https://aegis-cloudfront-1.tubi.video/22574bab-8a1f-44f4-b62f-ae2963c6a875/playlist.m3u8
@@ -203,7 +191,7 @@ https://apollo.production-public.tubi.io/live/ac-estrellatv.m3u8
 https://apollo.production-public.tubi.io/live/ac-euronews2.m3u8
 #EXTINF:-1 tvg-id="",Fanduel TV Extra (720p)
 https://aegis-cloudfront-1.tubi.video/fdd93041-1042-41bf-9200-8f9efe38ace5/playlist.m3u8
-#EXTINF:-1 tvg-id="FBIFiles.uk",FBI Files (720p)
+#EXTINF:-1 tvg-id="FBIFiles.us@US",FBI Files (720p)
 https://apollo.production-public.tubi.io/live/ac-the-fbi-files.m3u8
 #EXTINF:-1 tvg-id="FearFactor.us",Fear Factor (720p)
 https://apollo.production-public.tubi.io/live/ac-fear-factor.m3u8
@@ -277,11 +265,9 @@ https://apollo.production-public.tubi.io/live/ac-wfld.m3u8
 https://apollo.production-public.tubi.io/live/ac-wofl.m3u8
 #EXTINF:-1 tvg-id="WSYMDT1.us",FOX 47 Lansing MI (WSYM) (720p)
 https://apollo.production-public.tubi.io/live/ac-wsym.m3u8
-#EXTINF:-1 tvg-id="WTICDT1.us",FOX 61 Hartford CT (WTIC) (1080p)
-https://livetv-fa.tubi.video/wtic/live.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us",Fox Soul (720p)
 https://apollo.production-public.tubi.io/live/ac-fox-soul-scte.m3u8
-#EXTINF:-1 tvg-id="FoxSports.us",Fox Sports (720p)
+#EXTINF:-1 tvg-id="",Fox Sports (720p)
 https://apollo.production-public.tubi.io/live/fox-sports.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us",Fox Sports en Espanol (720p)
 https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8
@@ -303,7 +289,7 @@ https://aegis-cloudfront-1.tubi.video/358eebe5-75f6-42dc-96b3-c6ddf5a46698/playl
 https://aegis-cloudfront-1.tubi.video/43911d88-1ba4-4595-9b35-bf96d09efeef/playlist.m3u8
 #EXTINF:-1 tvg-id="",Haunt TV Canada (1080p)
 https://aegis-cloudfront-1.tubi.video/62f59fa9-7923-47ae-8c71-5446cf927f7e/playlist.m3u8
-#EXTINF:-1 tvg-id="",Heartland (720p)
+#EXTINF:-1 tvg-id="Heartland.us@Web",Heartland (720p)
 https://apollo.production-public.tubi.io/live/ac-heartland.m3u8
 #EXTINF:-1 tvg-id="",Her Sphere (720p) [Geo-blocked]
 https://aegis-cloudfront-1.tubi.video/134d66e4-9382-4f51-85a0-c47717a3b037/playlist.m3u8
@@ -313,13 +299,13 @@ https://apollo.production-public.tubi.io/live/ac-hi-yah.m3u8
 https://aegis-cloudfront-1.tubi.video/36785f5f-4e63-4cca-a16a-c8b309af0287/playlist.m3u8
 #EXTINF:-1 tvg-id="",Ice Road Truckers (1080p)
 https://apollo.production-public.tubi.io/live/ac-ice-road-truckers.m3u8
-#EXTINF:-1 tvg-id="IONTVEast.us",ION (720p)
+#EXTINF:-1 tvg-id="IONTV.us@East",ION (720p)
 https://apollo.production-public.tubi.io/live/ac-ion.m3u8
 #EXTINF:-1 tvg-id="",ION Mystery (1080p)
 https://aegis-cloudfront-1.tubi.video/b11b44b8-461f-4034-becb-9bb14ee45be2/playlist.m3u8
 #EXTINF:-1 tvg-id="",ION Mystery (1080p)
 https://livetv-fa.tubi.video/ion-mystery/playlist.m3u8
-#EXTINF:-1 tvg-id="IONPlusEast.us",ION Plus (720p)
+#EXTINF:-1 tvg-id="IONPlus.us@East",ION Plus (720p)
 https://apollo.production-public.tubi.io/live/ac-ion-plus.m3u8
 #EXTINF:-1 tvg-id="KartoonChannel.us",Kartoon Channel (720p)
 https://apollo.production-public.tubi.io/live/ac-kartoon.m3u8
@@ -361,8 +347,6 @@ https://aegis-cloudfront-1.tubi.video/c987b155-8d7e-4307-bd24-720bb2843d42/playl
 https://apollo.production-public.tubi.io/live/ac-wesh.m3u8
 #EXTINF:-1 tvg-id="KJRHDT1.us",NBC 2 Tulsa OK (KJRH) (720p)
 https://apollo.production-public.tubi.io/live/ac-kjrh.m3u8
-#EXTINF:-1 tvg-id="WKYCDT1.us",NBC 3 Cleveland OH (WKYC) (1080p)
-https://livetv-fa.tubi.video/wkyc/live.m3u8
 #EXTINF:-1 tvg-id="KCRADT1.us",NBC 3 Sacramento CA (KCRA) (720p)
 https://apollo.production-public.tubi.io/live/ac-kcra.m3u8
 #EXTINF:-1 tvg-id="WYFFDT1.us",NBC 4 Greenville SC (WYFF) (720p)
@@ -375,10 +359,6 @@ https://apollo.production-public.tubi.io/live/ac-wlwt.m3u8
 https://apollo.production-public.tubi.io/live/ac-koaa.m3u8
 #EXTINF:-1 tvg-id="WPTZDT1.us",NBC 5 Plattsburgh NY (WPTZ) (720p)
 https://apollo.production-public.tubi.io/live/ac-wptz.m3u8
-#EXTINF:-1 tvg-id="KINGDT1.us",NBC 5 Seattle WA (KING) (1080p)
-https://livetv-fa.tubi.video/king/live.m3u8
-#EXTINF:-1 tvg-id="KSDKDT1.us",NBC 5 St Louis MO (KSDK) (1080p)
-https://livetv-fa.tubi.video/ksdk/live.m3u8
 #EXTINF:-1 tvg-id="WPTVDT1.us",NBC 5 West Palm Beach FL (WPTV) (720p)
 https://apollo.production-public.tubi.io/live/ac-wptv2.m3u8
 #EXTINF:-1 tvg-id="KRISDT1.us",NBC 6 Corpus Christi TX (KRIS) (720p)
@@ -389,24 +369,14 @@ https://apollo.production-public.tubi.io/live/ac-wdsu.m3u8
 https://apollo.production-public.tubi.io/live/ac-ksby.m3u8
 #EXTINF:-1 tvg-id="WGALDT1.us",NBC 8 Lancaster PA (WGAL) (720p)
 https://apollo.production-public.tubi.io/live/ac-wgal.m3u8
-#EXTINF:-1 tvg-id="KGWDT1.us",NBC 8 Portland OR (KGW) (1080p)
-https://livetv-fa.tubi.video/kgw/live.m3u8
 #EXTINF:-1 tvg-id="KSBWDT1.us",NBC 8 Salinas CA (KSBW) (720p)
 https://apollo.production-public.tubi.io/live/ac-ksbw.m3u8
-#EXTINF:-1 tvg-id="KUSADT1.us",NBC 9 Denver CO (KUSA) (1080p)
-https://livetv-fa.tubi.video/kusa/live.m3u8
-#EXTINF:-1 tvg-id="WXIADT1.us",NBC 11 Atlanta GA (WXIA) (1080p)
-https://livetv-fa.tubi.video/wxia/live.m3u8
 #EXTINF:-1 tvg-id="WBALDT1.us",NBC 11 Baltimore MD (WBAL) (720p)
 https://apollo.production-public.tubi.io/live/ac-wbal.m3u8
-#EXTINF:-1 tvg-id="KAREDT1.us",NBC 11 Minneapolis / St Paul MN (KARE) (1080p)
-https://livetv-fa.tubi.video/kare/live.m3u8
 #EXTINF:-1 tvg-id="WPXIDT1.us",NBC 11 Pittsburgh PA (WPXI) (720p)
 https://apollo.production-public.tubi.io/live/ac-wpxi2.m3u8
 #EXTINF:-1 tvg-id="KTVHDT1.us",NBC 12 Helena MT (KTVH) (720p)
 https://apollo.production-public.tubi.io/live/ac-ktvh.m3u8
-#EXTINF:-1 tvg-id="KPNXDT1.us",NBC 12 Phoenix AZ (KPNX) (1080p)
-https://livetv-fa.tubi.video/kpnx/live.m3u8
 #EXTINF:-1 tvg-id="WXIIDT1.us",NBC 12 Winston-Salem NC (WXII) (720p)
 https://apollo.production-public.tubi.io/live/ac-wxii.m3u8
 #EXTINF:-1 tvg-id="WVTMDT1.us",NBC 13 Birmingham Al (WVTM) (720p)

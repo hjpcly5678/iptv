@@ -1,22 +1,31 @@
-import { Collection, Storage } from '@freearhey/core'
+import { Collection, Storage, Dictionary } from '@freearhey/core'
 import parser from 'iptv-playlist-parser'
 import { Stream } from '../models'
-import path from 'path'
-import { STREAMS_DIR } from '../constants'
+
+type PlaylistPareserProps = {
+  storage: Storage
+  feedsGroupedByChannelId: Dictionary
+  channelsKeyById: Dictionary
+}
 
 export class PlaylistParser {
   storage: Storage
+  feedsGroupedByChannelId: Dictionary
+  channelsKeyById: Dictionary
 
-  constructor({ storage }: { storage: Storage }) {
+  constructor({ storage, feedsGroupedByChannelId, channelsKeyById }: PlaylistPareserProps) {
     this.storage = storage
+    this.feedsGroupedByChannelId = feedsGroupedByChannelId
+    this.channelsKeyById = channelsKeyById
   }
 
   async parse(files: string[]): Promise<Collection> {
     let streams = new Collection()
 
     for (const filepath of files) {
-      const relativeFilepath = filepath.replace(path.normalize(STREAMS_DIR), '')
-      const _streams: Collection = await this.parseFile(relativeFilepath)
+      if (!this.storage.existsSync(filepath)) continue
+
+      const _streams: Collection = await this.parseFile(filepath)
       streams = streams.concat(_streams)
     }
 
@@ -24,42 +33,19 @@ export class PlaylistParser {
   }
 
   async parseFile(filepath: string): Promise<Collection> {
-    const streams = new Collection()
-
     const content = await this.storage.load(filepath)
     const parsed: parser.Playlist = parser.parse(content)
 
-    parsed.items.forEach((item: parser.PlaylistItem) => {
-      const { name, label, quality } = parseTitle(item.name)
-      const stream = new Stream({
-        channel: item.tvg.id,
-        name,
-        label,
-        quality,
-        filepath,
-        line: item.line,
-        url: item.url,
-        httpReferrer: item.http.referrer,
-        userAgent: item.http['user-agent'],
-        timeshift: item.tvg.shift
-      })
+    const streams = new Collection(parsed.items).map((data: parser.PlaylistItem) => {
+      const stream = new Stream()
+        .fromPlaylistItem(data)
+        .withFeed(this.feedsGroupedByChannelId)
+        .withChannel(this.channelsKeyById)
+        .setFilepath(filepath)
 
-      streams.add(stream)
+      return stream
     })
 
     return streams
   }
-}
-
-function parseTitle(title: string): { name: string; label: string; quality: string } {
-  const [, label] = title.match(/ \[(.*)\]$/) || [null, '']
-  title = title.replace(new RegExp(` \\[${escapeRegExp(label)}\\]$`), '')
-  const [, quality] = title.match(/ \(([0-9]+p)\)$/) || [null, '']
-  title = title.replace(new RegExp(` \\(${quality}\\)$`), '')
-
-  return { name: title, label, quality }
-}
-
-function escapeRegExp(text) {
-  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
 }

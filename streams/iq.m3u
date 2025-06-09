@@ -3,6 +3,8 @@
 https://mediaserver.abnvideos.com/streams/abnsat.m3u8
 #EXTINF:-1 tvg-id="AfaqTV.iq",Afaq TV
 http://63b03f7689049.streamlock.net:1935/live/1/playlist.m3u8
+#EXTINF:-1 tvg-id="AfarinBaxcha.iq",Afarin Baxcha (1080p)
+https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AfarinTV.iq",Afarin TV (720p) [Not 24/7]
 https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlahadTV.iq",Al Ahad TV
@@ -13,8 +15,6 @@ http://63b03f7689049.streamlock.net:1935/live/6/playlist.m3u8
 http://63b03f7689049.streamlock.net:1935/live/19/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEtejah.iq",Al Etejah TV
 http://63b03f7689049.streamlock.net:1935/live/33/playlist.m3u8
-#EXTINF:-1 tvg-id="AlghadeerTV.iq",Al Ghadeer TV
-http://63b03f7689049.streamlock.net:1935/live/2/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqia.iq",Al Iraqia (720p)
 https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaNews.iq",Al Iraqia News (720p)
@@ -23,7 +23,7 @@ https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
 http://63b03f7689049.streamlock.net:1935/live/18/playlist.m3u8
 #EXTINF:-1 tvg-id="AlNujabaTV.iq",Al Nujaba
 http://63b03f7689049.streamlock.net:1935/live/3/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRabiaaTV.iq",Al Rabiaa TV (1080p)
+#EXTINF:-1 tvg-id="AlRabiaaTV.iq" http-referrer="https://player.castr.com/live_c6c4040053cd11ee95b47153d2861736",Al Rabiaa TV (1080p)
 #EXTVLCOPT:http-referrer=https://player.castr.com/live_c6c4040053cd11ee95b47153d2861736
 https://stream.castr.com/65045e4aba85cfe0025e4a60/live_c6c4040053cd11ee95b47153d2861736/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="AlRafidainTV.tr",Al Rafidain (720p) [Not 24/7]
@@ -32,7 +32,9 @@ https://arrafidain.tvplayer.online/arrafidaintv/source2/playlist.m3u8
 https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8
 #EXTINF:-1 tvg-id="AlRasheedTV.iq",Al Rasheed TV (1080p) [Not 24/7]
 https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
-#EXTINF:-1 tvg-id="AlAimmaTV.iq",Al-Aimma TV (1080p)
+#EXTINF:-1 tvg-id="",Al Shabab TV (1080p)
+http://149.100.11.244:8001/play/a07n/index.m3u8
+#EXTINF:-1 tvg-id="AlAimmaTV.iq" http-referrer="https://alaimma.tv",Al-Aimma TV (1080p)
 #EXTVLCOPT:http-referrer=https://alaimma.tv
 http://stream.alaimma.tv/hls/alaimma/h3b1rd584cpq8p60okoj01rnfigdcnia.m3u8
 #EXTINF:-1 tvg-id="AlJawadainTV.iq",Al-Jawadain TV (1080p) [Not 24/7]
@@ -49,13 +51,13 @@ https://63b03f7689049.streamlock.net/live/1tv/playlist.m3u8
 http://95.216.180.111:1935/live/10/playlist.m3u8
 #EXTINF:-1 tvg-id="",Alqanat9 TV (1080p)
 https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8
-#EXTINF:-1 tvg-id="Alquran.iq" tvg-shift="0",Alquran (1080p)
+#EXTINF:-1 tvg-id="Alquran.iq",Alquran (1080p)
 https://ktvlive.online/stream/hls/ch1.m3u8
 #EXTINF:-1 tvg-id="",Althaqalayn TV
 http://63b03f7689049.streamlock.net:1935/live/16/playlist.m3u8
 #EXTINF:-1 tvg-id="",Althaqalayn TV
 http://77.36.160.164:1935/live4/thaghalayn/playlist.m3u8
-#EXTINF:-1 tvg-id="AnwarTV2.iq",Anwar TV2 (720p)
+#EXTINF:-1 tvg-id="AnwarTV2.iq" http-referrer="https://odysee.com/",Anwar TV2 (720p)
 #EXTVLCOPT:http-referrer=https://odysee.com/
 https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8
 #EXTINF:-1 tvg-id="AnwarTV2.iq",Anwar TV2 (288p)
@@ -122,12 +124,8 @@ https://kurdsat-news.akamaized.net/hls/kurdsat-news.m3u8
 https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVEnglish.iq",Marjaeyat TV English (1080p)
 https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
-#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq",Marjaeyat TV Persian (240p) [Not 24/7]
-https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCIraq.iq",MBC Iraq (1080p)
-https://iraq-prod-dub-enc.edgenextcdn.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8
-#EXTINF:-1 tvg-id="MBCIraq.iq",MBC Iraq (1080p)
-https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
 #EXTINF:-1 tvg-id="NRTTV.iq",NRT TV (720p) [Not 24/7]
 https://media.streambrothers.com:1936/8226/8226/playlist.m3u8
 #EXTINF:-1 tvg-id="NUBARPlusPlus.iq",NUBAR Plus TV (720p)
@@ -138,6 +136,8 @@ http://stream.nubar.tv:1935/private/NUBARtv/playlist.m3u8
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
 #EXTINF:-1 tvg-id="RudawTV.iq",Rudaw TV (1080p)
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ShamsTV.iq",Shams TV (1080p)
+https://stream.shams.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="UTV.iq",UTV (1080p)
 https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
 #EXTINF:-1 tvg-id="WaarTV.iq",Waar TV
@@ -146,3 +146,15 @@ https://ca-rt.onetv.app/Waar/index-0.m3u8
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="",Zarok TV Sorani (720p)
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AvarTV.iq",Avar TV (1080p)
+https://avr.host247.net/live/AvarTv/playlist.m3u8
+#EXTINF:-1 tvg-id="EmanTv.iq",EmanTv (1080p)
+https://avr.host247.net/live/emantv/playlist.m3u8
+#EXTINF:-1 tvg-id="Mixkurdy.iq",Mixkurdy (1080p)
+https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
+#EXTINF:-1 tvg-id="FarmodaTV.iq",FarmodaTV (1080p)
+https://avr.host247.net/live/FarmodaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="IraqFuture.iq@SD",Iraq Future
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq",Marjaeyat TV Persian (240p) [Not 24/7]
+https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
